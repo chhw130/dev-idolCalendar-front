@@ -1,9 +1,7 @@
 import axios from "axios";
 import { getCookie } from "../cookie/cookie";
 
-// export const BASE_URL = "http://api.myfavor/api/v1/";
-export const BASE_URL = "http://127.0.0.1:8000/api/v1/";
-// https://api.myfavor.co.kr/api/v1/idols
+export const BASE_URL = "http://api.myfavor/api/v1/";
 
 /**사진을 업로드 할 url 가져오는 함수 */
 export const getUploadUrl = async (img) => {
