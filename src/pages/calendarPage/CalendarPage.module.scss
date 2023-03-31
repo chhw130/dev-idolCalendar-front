@@ -1,0 +1,150 @@
+.calendarContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transform: translateY(0);
+}
+
+.box.animated {
+  animation: example 1s linear;
+}
+
+@keyframes example {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(200px);
+  }
+}
+
+.calendar {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //border: 1px solid black;
+}
+.calendarWrap {
+  padding-top: 100px;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //border: 1px solid black;
+  .idolName {
+    align-self: flex-start;
+    display: flex;
+    margin-left: 10%;
+    p {
+      margin: 5px;
+      font-size: 40px;
+      &:nth-child(2) {
+        font-size: 20px;
+        line-height: 60px;
+        color: grey;
+      }
+    }
+  }
+}
+.nextSchedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+.nextSchedule_LeftWrapper {
+  span {
+    margin-left: 10px;
+  }
+}
+.nextSchedule_LightWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.todaySchedule_List {
+  padding: 0;
+}
+.todaySchedule_Item {
+  list-style: none;
+}
+
+.nextSchedule_Title {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.nextSchedule_Icon {
+  width: 50px;
+  height: 50px;
+}
+.nextSchedule_Content {
+  font-family: Cafe24Ssurround;
+  font-size: 1.8rem;
+}
+.nextSchedule_ContentList {
+  //font-size: 20px;
+  //letter-spacing: -0.62px;
+  color: #000;
+  margin-left: 10px;
+}
+.iconDIv {
+  margin-left: 20px;
+}
+.nextSchedule_List {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 2vw;
+  //border: 1px solid black;
+}
+.nextScheduleItem {
+  min-width: 300px;
+  box-sizing: border-box;
+  background-color: #efeff1;
+  //border-radius: 20px;
+  width: 35vw;
+  padding: 20px 25px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    font-family: NanumSquareRound;
+    font-size: 1.2rem;
+  }
+  @media (max-width: 376px) {
+    width: 70vw;
+    span {
+      font-size: 1rem;
+    }
+  }
+}
+.nextscheduleIcon {
+  width: 40px;
+  height: 40px;
+}
+// @media (max-width: 376px) {
+// }
+.reportBtn {
+  align-self: flex-end;
+  background-color: #4856ff;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+  padding: 13px 20px 13px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  right: 14%;
+  position: relative;
+}

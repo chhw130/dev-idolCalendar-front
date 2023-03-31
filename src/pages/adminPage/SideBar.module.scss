@@ -1,0 +1,77 @@
+.adminPage {
+  display: flex;
+}
+
+.adminContents {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+}
+
+.navAble {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration-line: none;
+  margin: 6px;
+}
+
+.navDisable {
+  text-decoration-line: none;
+  font-size: 1.1rem;
+  color: white;
+
+  margin: 6px;
+}
+
+.sideBar {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 100vh;
+  background-color: antiquewhite;
+
+  nav {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    p {
+      margin: 5px 0 5px 0;
+    }
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    background-color: gainsboro;
+    border-radius: 100%;
+  }
+
+  .sideBarUser {
+    border-right: 1px solid #e0e0e0;
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sideBar {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .adminContents {
+    display: flex;
+    flex-direction: column;
+  }
+  .sideBar {
+    width: 100%;
+  }
+}

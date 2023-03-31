@@ -1,0 +1,26 @@
+$buttonBackGroundColor: #bbded6;
+$buttonColor: white;
+
+.searchForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 600px;
+  margin-bottom: 10px;
+  button {
+    background-color: $buttonBackGroundColor;
+    border: 0;
+    color: $buttonColor;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+  }
+  .resetBtn {
+    background-color: $buttonBackGroundColor;
+    border: 0;
+    color: $buttonColor;
+    font-weight: bold;
+    height: 30px;
+    width: 20px;
+  }
+}

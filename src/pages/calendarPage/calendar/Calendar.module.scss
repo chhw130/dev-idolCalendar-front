@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+.testDiv {
+  /* border: 1px solid black; */
+  display: flex;
+  list-style: none;
+}
+
+.listItem {
+  padding: 10px;
+  font-size: 16px;
+  list-style: none;
+}
+
+.active {
+  // opacity: 1;
+  &:nth-child(1) {
+    background-color: #443c68;
+  }
+
+  &:nth-child(2) {
+    background-color: #537fe7;
+    color: white;
+  }
+
+  &:nth-child(3) {
+    background-color: #f16767;
+    color: white;
+  }
+
+  &:nth-child(4) {
+    background-color: #e7b10a;
+    color: white;
+  }
+
+  &:nth-child(5) {
+    background-color: #609966;
+    color: white;
+  }
+
+  &:nth-child(6) {
+    background-color: rgb(12, 163, 35);
+    color: white;
+  }
+}
+
+.inactive {
+  // opacity: 0.5;
+  background-color: #ececec;
+}
+
+.buttonss {
+  // opacity: 1;
+  width: 10vw;
+  height: 8vh;
+  font-family: "Jua", sans-serif;
+  font-size: medium;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 376px) {
+    width: 12vw;
+  }
+}
+.icons {
+  margin-bottom: 5px;
+}
+
+.calendarContainer {
+  margin: 20px;
+  height: 100%;
+  font-family: "Jua", sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+
+  .controlContainer {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+  }
+
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .today {
+    text-decoration: underline;
+    font-weight: 700;
+    z-index: 2;
+  }
+  .prevBtn {
+    background: none;
+    border: none;
+  }
+
+  .nextBtn {
+    background: none;
+    border: none;
+  }
+
+  .todayBtn {
+    width: 40px;
+    height: 40px;
+    font-family: "Jua", sans-serif;
+    border-radius: 50%;
+    border: none;
+  }
+
+  .categoryContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .categoryBtn {
+    padding: 10px 30px;
+    color: white;
+    background: none;
+    font-family: "Jua", sans-serif;
+    font-size: medium;
+    border: none;
+  }
+
+  .categoryBtn:nth-child(1) {
+    background-color: #443c68;
+  }
+
+  .categoryBtn:nth-child(2) {
+    background-color: #f16767;
+  }
+
+  .categoryBtn:nth-child(3) {
+    background-color: #609966;
+  }
+
+  .categoryBtn:nth-child(4) {
+    background-color: #e7b10a;
+  }
+
+  .categoryBtn:nth-child(5) {
+    background-color: #537fe7;
+  }
+
+  .categoryBtn:nth-child(6) {
+    background-color: black;
+    color: white;
+  }
+
+  .week {
+    height: 5rem;
+    color: #7f7f7f;
+    font-size: 1.5rem;
+    vertical-align: middle;
+  }
+
+  .calendarTable {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // width: 50vw;
+    // height: 50vh;
+  }
+  .calendarTbody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  tr {
+    display: flex;
+    flex-direction: row;
+  }
+
+  td {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //border: 1px solid gray;
+    width: 10vw;
+    height: 10vh;
+  }
+  span {
+    margin-top: 10px;
+    font-weight: 600;
+    //border: 1px solid red;
+  }
+}
+
+.eventContent {
+  display: flex;
+  justify-content: center;
+}
+
+/* 방송  */
+.broadcast {
+  font-size: 30px;
+  background: #443c68;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+/* 발매 */
+.release {
+  font-size: 30px;
+  background: #f16767;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+/* 구매 */
+.buy {
+  font-size: 30px;
+  background: #609966;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+/* 축하 */
+.congrats {
+  font-size: 30px;
+  background: #e7b10a;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+/* 행사 */
+.event {
+  font-size: 30px;
+  background: #537fe7;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+/* my */
+.my {
+  font-size: 30px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+// .selected {
+//   position: relative;
+// }
+// // .selected::before {
+// //   content: "";
+// //   display: absolute;
+// //   width: 15px;
+// //   height: 15px;
+// //   border-radius: 50%;
+// //   background-color: rgb(222, 41, 228);
+// //   z-index: -1;
+// //   position: absolute;
+// //   left: 1px;
+// // }
+// .selected::before {
+//   content: "";
+//   position: absolute;
+//   width: 15px;
+//   height: 15px;
+//   border-radius: 50%;
+//   background-color: rgb(222, 41, 228);
+//   z-index: -1;
+// }
+.dayContent {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(184, 213, 88);
+  z-index: -1;
+}
+.dayContent::before {
+  position: relative;
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
+
+// @media all and (max-width: 768px) {
+//   .calendarContainer {
+//     display: flex;
+
+//     .categoryContainer {
+//       margin-top: 20px;
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-around;
+//       margin: 10px;
+//       margin-bottom: 0px;
+//     }
+
+//     .categoryBtn {
+//       padding: 3px;
+//       border-radius: 10%;
+//       background: none;
+//       font-family: "Jua", sans-serif;
+//       border: none;
+//     }
+
+//     .categoryBtn:nth-child(1) {
+//       background-color: #443c68;
+//     }
+
+//     .categoryBtn:nth-child(2) {
+//       background-color: #f16767;
+//     }
+
+//     .categoryBtn:nth-child(3) {
+//       background-color: #609966;
+//     }
+
+//     .categoryBtn:nth-child(4) {
+//       background-color: #e7b10a;
+//     }
+
+//     .categoryBtn:nth-child(5) {
+//       background-color: #537fe7;
+//     }
+
+//     .categoryBtn:nth-child(6) {
+//       background-color: black;
+//       color: white;
+//     }
+
+//     td {
+//       cursor: pointer;
+//     }
+//   }
+// }
+
+// @media (max-width: 376px) {
+// }
+
+td {
+  cursor: pointer;
+}

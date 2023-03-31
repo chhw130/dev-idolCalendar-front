@@ -1,0 +1,130 @@
+// .sideNav {
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.topBtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.btnDiv {
+  //border: 1px solid black;
+  width: 200px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.prevBtn {
+  width: 95px;
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color: #3c3cc0;
+  color: white;
+  border: none;
+  //border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #4a4ad5;
+  }
+
+  &:active {
+    background-color: #3939c2;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+$backgroundColor: #f8f8fa;
+
+.sidebarWrap {
+  width: 100%;
+}
+.navIcon {
+  font-size: 2rem;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.todaySchedule_List {
+  list-style: none;
+  padding: 0;
+}
+.todaySchedule_Item {
+  box-sizing: border-box;
+  background-color: $backgroundColor;
+  border-radius: 20px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  cursor: pointer;
+  p {
+    margin: 3px 0 3px 13px;
+    width: 90%;
+  }
+}
+.todayTitle {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: -0.62px;
+  color: white;
+  margin-bottom: 30px;
+}
+.hr {
+  margin: 40px 0;
+}
+.sideSchedule_top {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.sideSchedule_bot {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+
+  .editDiv_le {
+    margin-left: 13px;
+  }
+  .Btn {
+    width: 30px;
+    height: 30px;
+    padding: 0 1px 0 1px;
+    border: 0;
+    border-radius: 50%;
+    align-self: center;
+    background-color: $backgroundColor;
+    svg {
+      cursor: none;
+      pointer-events: none;
+    }
+    path {
+      cursor: none;
+      pointer-events: none;
+    }
+  }
+  .editDiv_ri {
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 376px) {
+  .todayTitle {
+    font-size: 1rem;
+  }
+}

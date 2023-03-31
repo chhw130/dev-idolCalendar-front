@@ -1,0 +1,259 @@
+.home {
+  width: 100%;
+  background: white;
+}
+p {
+  font-family: NanumSquareRound;
+}
+.homeContainer {
+  width: 100vw;
+}
+.home_mainBanner {
+  width: 100vw;
+}
+.mainVideo {
+  width: 100vw;
+  //height: 100vh;
+  object-fit: cover;
+  position: sticky;
+  top: 0;
+}
+
+/* width : total number of slides (9) * individual slide width (250px) */
+.slider {
+  //border: 1px solid black;
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 0px;
+}
+
+.slideBox {
+  display: flex;
+  width: calc(
+    300px * 10
+  ); // width : total number of slides (10) * individual slide width (300px)
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+.slide {
+  height: 150px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px; // Add margin to create a gap between divs
+  perspective: 100px;
+}
+
+.slideInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 140px;
+  width: 280px;
+  transition: transform 0.5s;
+  border-radius: 10px;
+  box-shadow: 5.1px 6.1px 17px 0 rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+  &:hover {
+    transform: translateZ(7px);
+  }
+}
+
+.slideContent {
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+.slideBot {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 30px;
+}
+
+.contentTitle {
+  margin-left: 10px;
+}
+.nameTitle {
+  margin-left: 10px;
+}
+
+// change
+
+/* artistSection */
+.artistSection {
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+article {
+  width: 80vw;
+  max-width: 950px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.artistFontWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5rem;
+}
+.artistImage {
+  max-width: 220px;
+  width: 16.5vw;
+  height: 16.5vw;
+  border-radius: 4vw;
+  // width: 215px;
+  // height: 215px;
+  // border-radius: 70px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+.artistThumnail {
+  cursor: pointer;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 3rem;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.artistImageWrapper {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+.artistName {
+  //margin-top: 2rem;
+  font-family: "NanumSquareRound";
+  margin: 0;
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: -0.19px;
+  cursor: pointer;
+  //border: 1px solid black;
+}
+.artistFont {
+  margin: 0;
+  //border: 1px solid black;
+  font-size: 1.2rem;
+  letter-spacing: -0.19px;
+  cursor: pointer;
+  color: #888888;
+}
+.mainTitle {
+  margin-top: 4vh;
+  p {
+    font-family: Cafe24Ssurround;
+    font-size: 3.5vw;
+    text-align: center;
+    line-height: 2.5vh;
+    letter-spacing: -1.55px;
+  }
+}
+.subTitle {
+  margin-top: 2.6rem;
+  font-size: 2vw;
+  letter-spacing: -0.6px;
+  color: #888888;
+  line-height: 3vw;
+}
+
+@media (max-width: 768px) {
+  // .mainTitle {
+  //   p {
+  //     font-size: 3.5vw;
+  //     line-height: 2vh;
+  //   }
+  // }
+  .subTitle {
+    margin-top: 2.5vw;
+  }
+  .artistFontWrapper {
+    margin-top: 2.5vw;
+  }
+  .artistImageWrapper {
+    margin-top: 2rem;
+  }
+  .artistImage {
+    width: 16vw;
+    height: 16vw;
+    border-radius: 4vw;
+  }
+  /* .artistThumnail {
+    width: 22vw;
+  } */
+  .artistName {
+    padding: 0;
+    margin-top: 1vh;
+    font-size: 2.2vw;
+  }
+  .artistFont {
+    font-size: 2.2vw;
+  }
+  article {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 376px) {
+  // 아티스트 썸네일 박스
+  .artistThumnail {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .artistImageWrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+  }
+  .artistImage {
+    width: 130px;
+    height: 130px;
+    //object-fit: cover;
+    //object-position: center;
+    border-radius: 6vw;
+    cursor: pointer;
+  }
+
+  .mainTitle {
+    line-height: 1vh;
+  }
+  .subTitle {
+    margin-top: 2.5vw;
+  }
+  .artistFontWrapper {
+    margin-top: 2.5vw;
+  }
+  .artistName {
+    padding: 0;
+    margin-top: 1vh;
+    font-size: 3vw;
+  }
+  .artistFont {
+    font-size: 2.8vw;
+  }
+  article {
+    width: 80vw;
+  }
+}

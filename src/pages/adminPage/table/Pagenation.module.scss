@@ -1,0 +1,17 @@
+$buttonBackGroundColor: #bbded6;
+.pageUl {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #ff9494;
+  color: white;
+  font-weight: bold;
+  padding: 0;
+  .page {
+    margin: 10px;
+  }
+  .pageActive {
+    margin: 10px;
+    color: $buttonBackGroundColor;
+  }
+}

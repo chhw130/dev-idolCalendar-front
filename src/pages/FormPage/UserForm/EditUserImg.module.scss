@@ -1,0 +1,51 @@
+$btnColor: #4856ff;
+
+.profileDiv {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+
+  img {
+    border-radius: 50%;
+    border: 6px solid #eaeaea;
+    width: 120px;
+    height: 120px;
+  }
+  .uploadFile {
+    position: relative;
+    top: -40px;
+    border-radius: 50%;
+    background-color: #fccec0;
+    width: 40px;
+    height: 40px;
+    line-height: 41px;
+    text-align: center;
+    input[type="file"] {
+      position: absolute;
+      transform: scale(2);
+      opacity: 0;
+      width: 20px;
+    }
+  }
+
+  button {
+    background-color: $btnColor;
+    border: 0;
+    margin: 3px;
+    color: white;
+    width: 140px;
+    height: 30px;
+    font-weight: bold;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: red;
+    font-weight: bold;
+  }
+}

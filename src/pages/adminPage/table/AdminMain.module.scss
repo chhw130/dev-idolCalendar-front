@@ -1,0 +1,30 @@
+.mainVideo {
+  width: 80vw;
+  height: 100vh;
+  object-fit: contain;
+  position: sticky;
+  border-left: 6px solid grey;
+}
+
+video::-webkit-media-controls-fullscreen-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-timeline {
+  display: none;
+}
+
+/* 일시정지, 재생 버튼 */
+video::-webkit-media-controls-play-button {
+  display: none;
+}
+
+/* 전체 시간 */
+video::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+
+/* 현재 진행 시간 */
+video::-webkit-media-controls-current-time-display {
+  display: none;
+}

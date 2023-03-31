@@ -1,0 +1,64 @@
+/* 수정 */
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 20;
+  span {
+    font-family: NanumSquareRound;
+    cursor: pointer;
+  }
+}
+.headerNav {
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: black;
+}
+/* .navSpan {
+  width: 100px;
+} */
+.navItem_span {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.navBtn {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: none;
+}
+
+.navImg {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 376px) {
+  .navImg {
+    width: 100px;
+  }
+  .navItem_span {
+    font-size: 3.2vw;
+  }
+}

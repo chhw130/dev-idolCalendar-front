@@ -1,0 +1,35 @@
+.userScheduleTitle {
+  padding: 0;
+}
+
+.userScheduleTitle {
+  margin: 10px 0 5px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.inputData {
+  width: 80%;
+  height: 30px;
+  border: 1px solid #fccec0;
+}
+
+.userBtnDiv {
+  margin-top: 20px;
+  text-align: center;
+  button {
+    &:nth-child(1) {
+      background-color: #a7a8b1;
+    }
+
+    color: white;
+    border: 0px;
+    margin: 30px 5px 0 5px;
+    border-radius: 30px;
+    width: 110px;
+    height: 40px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: #4856ff;
+  }
+}

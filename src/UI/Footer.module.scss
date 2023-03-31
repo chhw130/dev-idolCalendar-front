@@ -1,0 +1,140 @@
+span {
+  font-family: NanumSquareRound;
+}
+.footer {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#fccec0, #f89598);
+  overflow: hidden;
+}
+.footerCell {
+  width: 80vw;
+}
+.footerHeader {
+  width: 100vw;
+  img {
+    height: 35px;
+    margin-bottom: 5vh;
+  }
+}
+.footerContain {
+  padding: 0 5vw;
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //border: 1px solid white;
+}
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //border: 1px solid white;
+  p {
+    color: white;
+    font-size: 23px;
+    font-weight: 800;
+    margin: 0;
+    cursor: pointer;
+  }
+}
+.footerSns {
+  //border: 1px solid white;
+  h1 {
+    font-size: 25px;
+    font-weight: 100;
+    // padding: 10px 0;
+    color: white;
+    padding: 0;
+    display: inline-block;
+    margin-bottom: 1.5vw;
+    font-family: "NanumSquareRound";
+  }
+}
+.footerSns_image {
+  span {
+    &:nth-child(2),
+    &:nth-child(3) {
+      margin-left: 20px;
+    }
+  }
+  img {
+    width: 30px;
+  }
+}
+
+.footerCompany {
+  color: white;
+  font-size: 15px;
+  span {
+    padding: 0 5px;
+  }
+}
+.footerEmail {
+  padding: 5px 0 0;
+  line-height: 15px;
+  font-size: 11px;
+  span {
+    color: white;
+    &:nth-child(2) {
+      padding: 0 5px;
+    }
+  }
+}
+.footerMade {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 376px) {
+  .footerContent {
+    p {
+      font-size: 13px;
+    }
+  }
+  .footerHeader {
+    img {
+      height: 20px;
+    }
+  }
+  .footerContain {
+    height: 200px;
+  }
+  .footerSns {
+    h1 {
+      font-size: 15px;
+    }
+  }
+  .footerSns_image {
+    img {
+      width: 15px;
+    }
+  }
+  .footer {
+    height: 25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    p {
+      font-size: 17px;
+    }
+    .footerSns {
+      h1 {
+        font-size: 20px;
+      }
+    }
+    .footerSns_image {
+      img {
+        width: 25px;
+      }
+    }
+    .footer {
+      height: 30rem;
+    }
+  }
+}
