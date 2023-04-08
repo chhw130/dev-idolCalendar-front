@@ -141,40 +141,6 @@ src="https://user-images.githubusercontent.com/121347506/229693783-22b5be1c-c88a
  
 ![](https://velog.velcdn.com/images/chhw130/post/0b435eae-9465-4bb5-9e9e-b90b91a0d0fb/image.png)
 
----
-
-### 1. 메인페이지
-
-![](https://velog.velcdn.com/images/chhw130/post/217ee46f-1d2a-4dbf-a62e-62cbb2db0664/image.gif)
-
-### 2. 회원가입/로그인 페이지
-
-![](https://velog.velcdn.com/images/chhw130/post/73eac9ae-cbbe-40e4-8b29-bc61de906127/image.png)
-
-![](https://velog.velcdn.com/images/chhw130/post/a1884b19-ac5c-4cc8-9379-63893cc181e6/image.png)
-
-### 3. 캘린더 페이지
-
--카테고리별로 일정 표시하기
-
-![](https://velog.velcdn.com/images/chhw130/post/6d2fd408-ae0e-4519-9926-d85fcee40091/image.gif)
-
--제보하기
-
-![](https://velog.velcdn.com/images/chhw130/post/d96ffa5c-b6c2-4e14-b84e-98b628cb2957/image.png)
-
--내 일정 등록/수정/삭제 기능
-
-![](https://velog.velcdn.com/images/chhw130/post/58a5c48f-e58c-4f0e-9c3e-5ee357a224e6/image.gif)
-
-
-![](https://velog.velcdn.com/images/chhw130/post/30c98eda-c02e-432e-aff7-61f566bc9b37/image.gif)
-
-
-### 4. 관리자 페이지
-
-![](https://velog.velcdn.com/images/chhw130/post/d3e8d0ff-2c36-4eec-b1dc-2c204e98f166/image.gif)
-
 ----
 
 ## * :bulb: 프로젝트를 진행하면서 고민했던 문제들
