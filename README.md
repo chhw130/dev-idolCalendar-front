@@ -15,7 +15,9 @@
 
 따라서 사용자는 자신이 좋아하는 아이돌과 자신의 일정을 효율적으로 관리 할 수 있습니다.
 
+<br>
 ---
+<br>
 
 ### 멤버 구성 
 
@@ -79,7 +81,9 @@
 <img width="800" alt="스크린샷 2023-04-04 오후 2 16 55" 
 src="https://user-images.githubusercontent.com/121347506/229693783-22b5be1c-c88a-49c8-940d-37265e3bd72c.png">
 
+<br>
 ----
+<br>
 ## * :bulb: 주요 기능 
     
  ### - 로그인 & 로그아웃
@@ -136,12 +140,26 @@ src="https://user-images.githubusercontent.com/121347506/229693783-22b5be1c-c88a
 
 
 ----
+<br>
 
 ## * :bulb: 구성도
  
 ![](https://velog.velcdn.com/images/chhw130/post/0b435eae-9465-4bb5-9e9e-b90b91a0d0fb/image.png)
 
+<br>
 ----
+<br>
+
+## * :bulb: UI
+
+<img width="1289" alt="스크린샷 2023-04-08 오후 5 04 43" src="https://user-images.githubusercontent.com/116826162/230710850-2ebeded0-e427-4020-b1a5-3a2371c445da.png">
+
+👏[자세한 UI보러가기](https://github.com/chhw130/dev-idolCalendar-front/wiki/WebApp-UI)
+
+<br>
+----
+
+<br>
 
 ## * :bulb: 프로젝트를 진행하면서 고민했던 문제들
 
