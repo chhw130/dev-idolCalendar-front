@@ -67,7 +67,7 @@ function App() {
           <Route path="idollist" element={<IdolTable />} />
         </Route>
 
-        {/* 메인페이지 */}
+        {/* 메인페이지! */}
         <Route
           path="/"
           element={
