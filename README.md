@@ -170,6 +170,7 @@ src="https://user-images.githubusercontent.com/121347506/229693783-22b5be1c-c88a
 - 서버데이터를 어떻게 처리에 대한 고민(react-query의 도입)
 - 유효성 검사에 대해 백과 프론트가 취해야하는 자세
 - cors오류에 대해서
+- 이미지를 처리하는 방식(이미지 서버를 별도로 사용)
 - Redux-toolkit을 이용한 전역적 상태관리
 
 
