@@ -16,7 +16,6 @@
 따라서 사용자는 자신이 좋아하는 아이돌과 자신의 일정을 효율적으로 관리 할 수 있습니다.
 
 <br>
----
 <br>
 
 ### 멤버 구성 
@@ -70,10 +69,8 @@
 	![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
 
+
 <br>
-
-----
-
 <br>
 
 ##  :bulb: Architecture
@@ -82,7 +79,6 @@
 src="https://user-images.githubusercontent.com/121347506/229693783-22b5be1c-c88a-49c8-940d-37265e3bd72c.png">
 
 <br>
-----
 <br>
 
 ##  :bulb: 주요 기능 
@@ -136,19 +132,18 @@ src="https://user-images.githubusercontent.com/121347506/229693783-22b5be1c-c88a
    - 사용자로 부터 제보 받은 report-data가 관리자 페이지에 적재 및 저장 
    - 관리자는 제보받은 data를 조회, 수정, 삭제 가능
 
+
+
 <br>
-
-
-
-----
 <br>
 
 ##  :bulb: 구성도
  
 ![](https://velog.velcdn.com/images/chhw130/post/0b435eae-9465-4bb5-9e9e-b90b91a0d0fb/image.png)
 
+
+
 <br>
-----
 <br>
 
 ##  :bulb: UI
@@ -157,10 +152,10 @@ src="https://user-images.githubusercontent.com/121347506/229693783-22b5be1c-c88a
 
 👏[자세한 UI보러가기](https://github.com/chhw130/dev-idolCalendar-front/wiki/WebApp-UI)
 
-<br>
-----
 
 <br>
+<br>
+
 
 ##  :bulb: 프로젝트를 진행하면서 고민했던 문제들
 
