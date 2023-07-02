@@ -1,4 +1,4 @@
-![image](https://github.com/chhw130/dev-idolCalendar-front/assets/116826162/52deeee6-e2ec-4d05-8234-76a1e6e5142a)# 프로젝트 소개
+# 프로젝트 소개
 ### 프로젝트 기간 : 2023.03.06 ~ 2023.03.27 
 ---
 # :hearts: MyFavor 
