@@ -1,4 +1,4 @@
-# 프로젝트 소개
+![image](https://github.com/chhw130/dev-idolCalendar-front/assets/116826162/52deeee6-e2ec-4d05-8234-76a1e6e5142a)# 프로젝트 소개
 ### 프로젝트 기간 : 2023.03.06 ~ 2023.03.27 
 ---
 # :hearts: MyFavor 
@@ -159,11 +159,10 @@ src="https://user-images.githubusercontent.com/121347506/229693783-22b5be1c-c88a
 
 ##  :bulb: 프로젝트를 진행하면서 고민했던 문제들
 
-🙌자세한 내용은 [링크](https://github.com/chhw130/dev-idolCalendar-front/wiki/tech-issue)
 
-- [cors오류에 대해서](https://velog.io/@chhw130/%EC%A7%80%EA%B8%8B%EC%A7%80%EA%B8%8B%ED%95%9C-CORS-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95)
+- [proxy를 통한 cors에러 해결로 생산성 확대](https://velog.io/@chhw130/%EC%A7%80%EA%B8%8B%EC%A7%80%EA%B8%8B%ED%95%9C-CORS-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95)
 - [서버데이터를 어떻게 처리에 대한 고민(react-query의 도입)](https://velog.io/@chhw130/React-redux%EC%99%80-react-query)
-- [유효성 검사에 대해 백과 프론트가 취해야하는 자세](https://velog.io/@chhw130/%EC%9C%A0%ED%9A%A8%EC%84%B1-%EA%B2%80%EC%82%AC%EC%97%90-%EB%8C%80%ED%95%9C-%EC%B2%98%EB%A6%AC)
+- [유효성 검사에 대한 고민과, 기존 form형식에서 useHookForm 마이그레이션을 통해 리렌더링 및 에러 핸들링을 통한 페이지 최적화](https://velog.io/@chhw130/%EC%9C%A0%ED%9A%A8%EC%84%B1-%EA%B2%80%EC%82%AC%EC%97%90-%EB%8C%80%ED%95%9C-%EC%B2%98%EB%A6%AC)
 - [로그인 구현에 대해서(session id or jwt)](https://velog.io/@chhw130/%EB%A1%9C%EA%B7%B8%EC%9D%B8%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0session-ID-Token%EB%B0%A9%EC%8B%9D)
 - [이미지를 처리하는 방식(이미지 서버를 별도로 사용)](https://velog.io/@chhw130/%EC%B5%9C%EC%A0%81%ED%99%94%EB%90%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%84%9C%EB%B2%84%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0with-CloudFlare)
 - [Redux-toolkit을 이용한 전역적 상태관리](https://velog.io/@chhw130/React-Redux%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%A0%84%EC%97%AD%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%83%81%ED%83%9C-%EA%B4%80%EB%A6%AC%EB%A5%BC-%ED%95%B4%EB%B3%B4%EC%9E%90)
